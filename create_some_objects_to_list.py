@@ -8,6 +8,8 @@ from create_one_attribute import Person
 p1=Person(name='Anvar')
 p2=Person(name='Shavkat')
 p3=Person(name='Jasur')
-print(p1.name)
-print(p2.name)
-print(p3.name)
+a=(p1.name)
+b=(p2.name)
+c=(p3.name)
+print([a,b,c])
+
